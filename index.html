@@ -14,7 +14,13 @@
   
 
 
+
 <html class="theme-next pisces use-motion" lang="en">
+
+
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,9 +94,9 @@
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
-      applicationID: '',
+      applicationID: 'PCI4BS7YB5',
       apiKey: '',
-      indexName: '',
+      indexName: 'allthepast',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -318,20 +324,26 @@
   
     <div class="site-search">
       
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
-    </div>
   </div>
-  <div id="local-search-result"></div>
-</div>
+
 
 
 
@@ -422,12 +434,24 @@
                 
               
 
-              <time title="Created: 2019-05-02 23:36:29 / Modified: 23:48:11" itemprop="dateCreated datePublished" datetime="2019-05-02T23:36:29+08:00">2019-05-02</time>
+              <time title="Created: 2019-05-02 23:36:29" itemprop="dateCreated datePublished" datetime="2019-05-02T23:36:29+08:00">2019-05-02</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-05-03 16:45:40" itemprop="dateModified" datetime="2019-05-03T16:45:40+08:00">2019-05-03</time>
               
             
           </span>
@@ -436,6 +460,19 @@
 
           
             
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">Comments: </span>
+                <a href="/2019/05/02/allthepast/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/02/allthepast/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -463,7 +500,8 @@
       
         
           
-            <font face="微软雅黑" size="3"><br>写于workingpaper咖啡馆<br><br>这次写作的冲动缘起于看到电视剧都挺好(All is well)中的和解，于是便戴起耳机隔离自己开始写。<br><br>我向来是一个不啻于解剖自己给世界看的人,因此也收到过很多说我蠢的评价。不过这些评价也都是好久以前的事情了。我就像开了对好友隐身一样和老朋友们疏远了，用一句初中看到的好词好句来说——我们就像相交后的两条线越行越远。看出来了吧——我有病。<br><br>感觉自己有病是有些年头了，因为当意识到有病的那个very moment，脑海中突然flash back了好多小学，初中，高中自己藏在脑海深处的很多蠢事的回忆，突然理解了当时自己为什么那么做，也算做到一种step out的状态了。哈！神奇的大脑记忆。<br><br>在感情中，三观受到一些刺激（这句话说得很含糊，但是也说得过去，没毛病），才意识到我有病，而不是这个世界有病，主观客观和个人环境的辩论先放一边，先就着我有病继续下去。<br><br>在解脱的过程中，一开始以为我如果继续活下去的话，我人生的主题会是我和世界达成和解的过程，现在渐渐发现其实是自己和自己和解，自己放过自己。<br><br>从我的原生家庭开始说吧，哈！能说出原生家庭这几个字真是变得越来越不容易了。怎么来形容我的家庭背景呢，家家有本难念的经吗？是自己一直反复强调才加深了这种一提起家庭我就难过的悲剧意识吗？怎么开始说呢，性格不合的父母一个嘴贱，一个手贱。用“贱”这个字都不足以表达我的愤懑之情。看到电视剧里面的家暴，苏明成给了朱丽一个巴掌，在我的认知里面这就像是“抚摸”一样，反而是明成打明玉被起诉故意伤害罪更像是我的概念中的“家暴”。不行了，太难受了，这种回忆往往还夹杂着对年幼的自己没有力量反抗，没有勇气站出来保护爸爸不被骂，保护妈妈不被打的无力感。但是父母又都是爱我的，哎，又爱又恨。<br><br>前几年看病的时候，对医生说我不会自杀的，因为一想到我妈妈知道我死后发疯的样子就不忍心吧。不过在一次和父母的争吵中，我达成了自己和自己的和解，我对着父母说——“等你们死了以后我再死。”这句话吵得就很有水平了，是和他们去世的后者同年同月同日同时同分的下一秒死，还是一直活到寿终。who knows.<br><br>一张白纸在这样的坏境长大，会变成什么样子呢？<br><br>不过，当你张开大嘴说出“原生家庭”这四个字的时候，注意不是在脑海里呓语。其实家庭对你的影响就已经越来越淡了。意识到问题不只是解决问题的第一步，其实意识到问题，再加上你没有死的话，就代表着你解决了问题。或许顿悟，或许灌顶。<br><br>在解决了一个问题，另一个又会出来。承认了家庭对一个人的影响很深的事实后，那么问题来了，剔除了家庭对一个人的影响后，什么才是真正的，真实的我？我是谁，真是一个好问题，真实得敲击在我的脑壳上。<br><br>纠结的过程按下不表，结论总结如下：<br>我是谁，从哪里来，又到哪里去？<br>宇宙没有目的，人生也没有意义。<br><br>一些共鸣的东西，偷懒列一个关键字列表：<br>- 一些锵锵三人行<br>- 柯文哲<br>- 北岛<br>- 三体<br>- 蒋勋<br>- 李永乐老师<br>- 猫腻<br>- 毛毛<br>- Conan<br>- Freyman<br>- 喷嚏阅读<br></font>
+            <font face="微软雅黑" size="3"><br>写于workingpaper咖啡馆<br><br>这次写作的冲动缘起于看到电视剧都挺好(All is well)中的和解，于是便戴起耳机隔离自己开始写。<br><br>我向来是一个不啻于解剖自己给世界看的人,因此也收到过很多说我蠢的评价。不过这些评价也都是好久以前的事情了。我就像开了对好友隐身一样和老朋友们疏远了，用一句初中看到的好词好句来说——我们就像相交后的两条线越行越远。看出来了吧——我有病。<br><br>感觉自己有病是有些年头了，因为当意识到有病的那个 very moment，脑海中突然 flash back 了好多小学，初中，高中自己藏在脑海深处的很多蠢事的回忆，突然理解了当时自己为什么那么做，也算做到一种 step out 的状态了。哈！神奇的大脑记忆。<br><br>在感情中，三观受到一些刺激（这句话说得很含糊，但是也说得过去，没毛病），才意识到我有病，而不是这个世界有病，主观客观和个人环境的辩论先放一边，先就着我有病继续下去。<br><br>在解脱的过程中，一开始以为我如果继续活下去的话，我人生的主题会是我和世界达成和解的过程，现在渐渐发现其实是自己和自己和解，自己放过自己。<br><br>从我的原生家庭开始说吧，哈！能说出原生家庭这几个字真是变得越来越不容易了。怎么来形容我的家庭背景呢，家家有本难念的经吗？是自己一直反复强调才加深了这种一提起家庭我就难过的悲剧意识吗？怎么开始说呢，性格不合的父母一个嘴贱，一个手贱。用“贱”这个字都不足以表达我的愤懑之情。看到电视剧里面的家暴，苏明成给了朱丽一个巴掌，在我的认知里面这就像是“抚摸”一样，反而是明成打明玉被起诉故意伤害罪更像是我的概念中的“家暴”。不行了，太难受了，这种回忆往往还夹杂着对年幼的自己没有力量反抗，没有勇气站出来保护爸爸不被骂，保护妈妈不被打的无力感。但是父母又都是爱我的，哎，又爱又恨。<br><br>前几年看病的时候，对医生说我不会自杀的，因为一想到我妈妈知道我死后发疯的样子就不忍心吧。不过在一次和父母的争吵中，我达成了自己和自己的和解，我对着父母说——“等你们死了以后我再死。”这句话吵得就很有水平了，是和他们去世的后者同年同月同日同时同分的下一秒死，还是一直活到寿终。who knows.<br><br>一张白纸在这样的坏境长大，会变成什么样子呢？<br><br>不过，当你张开大嘴说出“原生家庭”这四个字的时候，注意不是在脑海里呓语。其实家庭对你的影响就已经越来越淡了。意识到问题不只是解决问题的第一步，其实意识到问题，再加上你没有死的话，就代表着你解决了问题。或许顿悟，或许灌顶。<br><br>在解决了一个问题，另一个又会出来。承认了家庭对一个人的影响很深的事实后，那么问题来了，剔除了家庭对一个人的影响后，什么才是真正的，真实的我？我是谁，真是一个好问题，真实得敲击在我的脑壳上。<br><br>纠结的过程按下不表，结论总结如下：<br>我是谁，从哪里来，又到哪里去？<br>宇宙没有目的，人生也没有意义。<br><br>一些共鸣的东西，偷懒列一个关键字列表：<br>- 一些锵锵三人行<br>- 柯文哲<br>- 北岛<br>- 三体<br>- 蒋勋<br>- 李永乐老师<br>- 猫腻<br>- 毛毛<br>- Conan<br>- Freyman<br>- 喷嚏阅读<br></font>
+
           
         
       
@@ -705,8 +743,10 @@ visits:<span id="busuanzi_value_site_pv"></span>
   
     
     
+      
+    
   
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="true"></script>
 
 
 
@@ -764,6 +804,12 @@ visits:<span id="busuanzi_value_site_pv"></span>
   
 
   
+  
+  <script id="dsq-count-scr" src="https://https-qixiaosen-github-io.disqus.com/count.js" async></script>
+
+
+
+
 
 
 
@@ -1089,6 +1135,19 @@ visits:<span id="busuanzi_value_site_pv"></span>
   </script>
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/algolia-search.js?v=7.1.1"></script>
 
 
 
