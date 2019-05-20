@@ -105,18 +105,18 @@
 
 
 
-  <meta name="description" content="过去种种，譬如昨日死。\n未来种种，譬如今日生。">
+  <meta name="description" content="过去种种，譬如昨日死。 未来种种，譬如今日生。">
 <meta name="keywords" content="成长型思维">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Tags">
 <meta property="og:url" content="http://yoursite.com/tags/index.html">
 <meta property="og:site_name" content="过去种种">
-<meta property="og:description" content="过去种种，譬如昨日死。\n未来种种，譬如今日生。">
+<meta property="og:description" content="过去种种，譬如昨日死。 未来种种，譬如今日生。">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2019-05-03T08:19:20.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="过去种种，譬如昨日死。\n未来种种，譬如今日生。">
+<meta name="twitter:description" content="过去种种，譬如昨日死。 未来种种，譬如今日生。">
 
 
 
@@ -232,7 +232,7 @@
       
     
 
-    <a href="/520/" rel="section"><i class="menu-item-icon fa fa-fw fa-520"></i> <br>520</a>
+    <a href="/520/" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>520</a>
 
   </li>
         
@@ -251,7 +251,7 @@
       
     
 
-    <a href="/521/" rel="section"><i class="menu-item-icon fa fa-fw fa-521"></i> <br>521</a>
+    <a href="/521/" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>521</a>
 
   </li>
         
@@ -270,7 +270,7 @@
       
     
 
-    <a href="/2048/" rel="section"><i class="menu-item-icon fa fa-fw fa-2048"></i> <br>2048</a>
+    <a href="/2048/" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>2048</a>
 
   </li>
         
@@ -578,10 +578,13 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/images/avatar4.jpg" alt="STRONG0125">
-                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=34229236&auto=1&height=66"></iframe>
+                
             
               <p class="site-author-name" itemprop="name">STRONG0125</p>
-              <div class="site-description motion-element" itemprop="description">过去种种，譬如昨日死。\n未来种种，譬如今日生。</div>
+              <div class="site-description motion-element" itemprop="description">过去种种，譬如昨日死。
+<br>未来种种，譬如今日生。</div>
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=34229236&auto=0&height=66"></iframe>
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=38358214&auto=1&height=66"></iframe>
           </div>
 
           
@@ -1218,6 +1221,74 @@ visits:<span id="busuanzi_value_site_pv"></span>
 
 
   
+  
+  <script>
+    
+    function showTime(Counter) {
+      var entries = [];
+      var $visitors = $('.leancloud_visitors');
+
+      $visitors.each(function() {
+        entries.push( $(this).attr('id').trim() );
+      });
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { '$in': entries } }) })
+        .done(function({ results }) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if (countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'KbvbYzcrSdh7uPRjRNz0n4UH-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'KbvbYzcrSdh7uPRjRNz0n4UH-gzGzoHsz',
+                'X-LC-Key': 'NWLoOu2yIDhp84rjx7nvlNXg',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            if ($('.post-title-link').length >= 1) {
+              showTime(Counter);
+            }
+          
+        });
+    });
+  </script>
+
+
 
   
 
