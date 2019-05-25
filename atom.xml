@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>过去种种</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://allthepast.site/"/>
+  <updated>2019-05-25T13:07:36.461Z</updated>
+  <id>https://allthepast.site/</id>
+  
+  <author>
+    <name>STRONG0125</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown-Tricks</title>
+    <link href="https://allthepast.site/posts/1b033dda/"/>
+    <id>https://allthepast.site/posts/1b033dda/</id>
+    <published>2019-05-25T10:02:41.000Z</published>
+    <updated>2019-05-25T13:07:36.461Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><em>痛点</em></strong>：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&gt;”</p><p>找了好久没有找到一个满意的解决方案，在<a href="https://stackoverflow.com/questions/48643629/how-can-i-wrap-a-multi-line-quote-in-markdown" target="_blank" rel="noopener">这里</a> 看到一个“ NO WAY ”</p><p>于是用sublime 的 macro 功能，把 <strong>&gt; left-arrow down-arrow</strong> 这三个键变成一个 <strong>ctrl+shift+q</strong></p><p>不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行</p><p>虽然还是不完美，不知怎的，今天的我特别容易满足，也许是重温了放牛班的春天吧，在这里就先放过自己了。self foolish and stay foolish</p><p>未完待续</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;痛点&lt;/em&gt;&lt;/strong&gt;：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;”&lt;/p&gt;
+&lt;p&gt;找了好久没有找到一个满意的解决方案，在&lt;a href=&quot;https://stackoverflow.com/q
+      
+    
+    </summary>
+    
+    
+      <category term="tricks" scheme="https://allthepast.site/tags/tricks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows_tricks</title>
+    <link href="https://allthepast.site/posts/14433/"/>
+    <id>https://allthepast.site/posts/14433/</id>
+    <published>2019-05-24T15:33:44.000Z</published>
+    <updated>2019-05-25T13:09:04.746Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.点击当前程序，win键+←/→可以使该应用缩至一半，并能调动左右位置；</p><p>2、在上一步的基础上，同时按住win键+↑/↓，能实现右上角四分一窗口显示；</p><p>3、任务视图快捷键win+Tab，显示当前运行的任务程序；</p><p>4、win+Ctrl+D，新建桌面窗口，可以重新再进行多个程序操作，这样子就不会觉得很乱啦；</p><p>5、win+Ctrl+←/→，切换新建桌面窗口；</p><p>6、win+Ctrl+↑/↓，是程序右上角的最大化、向下还原、最小化的快捷方式。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.点击当前程序，win键+←/→可以使该应用缩至一半，并能调动左右位置；&lt;/p&gt;
+&lt;p&gt;2、在上一步的基础上，同时按住win键+↑/↓，能实现右上角四分一窗口显示；&lt;/p&gt;
+&lt;p&gt;3、任务视图快捷键win+Tab，显示当前运行的任务程序；&lt;/p&gt;
+&lt;p&gt;4、win+Ctr
+      
+    
+    </summary>
+    
+    
+      <category term="tricks" scheme="https://allthepast.site/tags/tricks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Self_discipline</title>
+    <link href="https://allthepast.site/posts/21154/"/>
+    <id>https://allthepast.site/posts/21154/</id>
+    <published>2019-05-24T15:18:48.000Z</published>
+    <updated>2019-05-25T13:09:15.394Z</updated>
+    
+    <content type="html"><![CDATA[<p>So here are 10 important insights for self discipline from Marcus Aurelius.</p><blockquote><p>马可·奥勒留·安敦宁·奥古斯都是罗马帝国五贤帝时代最后一个皇帝，拥有凯撒称号。于161年至180年在位。他是罗马帝国最伟大的皇帝之一，同时也是著名的斯多葛派哲学家</p></blockquote><blockquote><p>斯多葛派 The word “stoic” commonly refers to someone indifferent to pain, pleasure, grief, or joy.The modern usage as “<strong>person who represses feelings or endures patiently</strong>“ was first cited in 1579 as a noun, and 1596 as an adjective. In contrast to the term “Epicurean”, the Stanford Encyclopedia of Philosophy’s entry on Stoicism notes, “the sense of the English adjective ‘stoical’ is not utterly misleading with regard to its philosophical origins.”</p></blockquote><ol><li><p>Self Discipline starts with finding your purpose<br>Finding compelling reasons to do something then committing yourself.</p></li><li><p>Count on yourself<br>Regardless of your phsical mentor and emotional state,<br>NOT overwhelming.</p></li><li><p>Show up every day<br>Move forward open eyes on what is in front of you which is life itself 每一天都是余生的第一天</p></li><li><p>Practice voluntary hardship<br>No social media for a few days scarcity and hardship</p></li><li><p>Practice dichotomy of control<br>控制二分法？很有意思，视频里讲到是碰到干扰distractions 让你分心的事情碰到事情后分析什么是我可以控制的， 什么是不可以控制的，不纠结。想起一个成功的公式——成功=潜能-干扰</p></li><li><p>Never play the victim<br>Do your job, without whining. dont blame it on parents, I just born this way,everyone else does it.<br><em>NO EXCUSES!!!</em><br>NO self-pity.</p></li><li><p>Practice delayed gratification<br>延迟满足 gratification——pleasure, especially when gained from the satisfaction of a desire.<br>当你减肥时，去参加聚会可以少吃一点吗？</p></li><li><p>Ignore naysayers<br>When 被naysayers批评被讨厌, go to their souls,penetrate inside and see what sort of people they are.You will realize no need to be racked with anxiety that they should hold any particular opinion about you.<br>不要只批评不建设。</p></li><li><p>Find wise people to emulate </p></li><li><p>Honestly review your day<br>日省吾身</p></li></ol><p><a href="http://www.youtube.com/watch?v=njDLNt-1ugM" target="_blank" rel="noopener"><img src="http://img.youtube.com/vi/njDLNt-1ugM/0.jpg" alt="IMAGE ALT TEXT HERE"></a></p><p>check the <a href="https://www.youtube.com/watch?v=njDLNt-1ugM" target="_blank" rel="noopener">video</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;So here are 10 important insights for self discipline from Marcus Aurelius.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;马可·奥勒留·安敦宁·奥古斯都是罗马帝国五贤帝时代最后一个皇帝，拥有凯撒称号。于1
+      
+    
+    </summary>
+    
+    
+      <category term="反省,review" scheme="https://allthepast.site/tags/%E5%8F%8D%E7%9C%81-review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>成长型思维模式 Growth Mindset</title>
+    <link href="https://allthepast.site/posts/31001/"/>
+    <id>https://allthepast.site/posts/31001/</id>
+    <published>2019-05-20T01:33:46.234Z</published>
+    <updated>2019-05-25T12:56:15.557Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>什么是“固定型思维模式”呢？《终身成长》的作者卡罗尔·德韦克博士认为，那些相信自己的才能是一成不变的，经常关注自己是否足够聪明，或者遇到挫折和失败的时候自暴自弃、贬低自己的人就是固定型思维模式的人。我当时就是一个典型的固定型思维模式患者，遇到比自己成绩优秀的同学，失去了老师的关注之后，就变得自卑，甚至认为自己笨，这种思维让我的心态处于极不好的状态，也让自己进入了恶性循环。</p><p>那么这种固定型思维模式是怎样产生的呢？它与我从小接受的教育有很大关系。小时候只要期末考试我拿了全校前几名，就会收到来自父母和各个亲戚、老师的夸赞：你真聪明，你真厉害，这个学生特别棒！这个女孩儿好乖！</p><p>于是这些赞赏的目光和语气就在我心里埋下了一颗小小的种子：我要更努力，我要更厉害，才能获得父母和老师的赞扬，如果我的成绩下降了，他们肯定会批评我，会不开心，那我肯定就成了一个特别失败的人。</p><p>因此，这颗小小的“固定型思维模式”种子随着我一起长大，直到高中遇到了坎，掉进了深渊。</p><p>固定型思维模式既然会带来那么严重的害处，那什么样的思维模式对于人的成长来说才是有益的呢？卡罗尔·德韦克在书中提出了与“固定型思维模式”相反的“成长型思维模式”，这种思维模式更关注努力的过程，拥有这种思维模式的人认为自身能力是可以靠努力来培养的，并且他们在遇到困难的时候能越挫越勇、坚持不懈，他们不会因为失败而气馁，反而认为自己没有失败，认为自己是在学习。</p><p>作者在《终身成长》里说：</p><p>“父母对孩子的称赞方式塑造了孩子的思维模式。一个孩子遇到挫折时，如果父母表现得焦虑，或者表现得非常关注孩子的个人能力，会更容易促使孩子形成固定型思维模式。相反，那些对孩子的挫折表现出兴趣，并将其视为学习良机的父母才能将成长型思维模式传授给他们的孩子。”</p><p>小时候，父母、老师、甚至我自己，关注的都是我的成绩够不够优秀，有没有全面发展，拿没拿到奖状之类的结果，而没有关注我努力、坚持、不放弃的过程，表扬的也只是结果，而不是过程，因此才会导致我形成固定型思维模式。</p><p>所以，已经为人父母或即将为人父母的你，在教育孩子、夸赞孩子的时候，一定记得，夸赞他努力和坚持不懈的过程，而不是夸赞他的个人能力。并且在面对失败的时候，你积极面对、把它当成学习和成长机会的处理方式也会传染给孩子，帮助他形成成长型思维模式。</p><p>但如果你或者你的孩子现在已经形成根深蒂固的固定型思维模式了怎么办呢？《终身成长》的作者告诉了我们将固定型思维模式改变为成长型思维模式的方法：</p><blockquote><p>第一步：接受</p><p>与心中的固定型思维模式和解，接受它，没什么可羞愧的。</p><p>第二步：观察</p><p>也就是你要明确是什么激发了你的固定型思维模式，这个固定型思维模式的人格会在什么时候回来？也许是你丢了工作的时候？你遇到巨大压力的时候？当你了解并明确了它什么时候会出现，不要着急评价或强制自己去改变它，先观察一下。</p><p>第三步：命名</p><p>给你的固定型思维模式人格取一个名字。比如有的人把它叫做“杜安”，有的叫做“格特鲁德”。</p><p>第四步：教育</p><p>当你遇到挫折、固定型思维模式人格再次出现的时候，不要马上与它对抗，让它自然发展，等它稍微安静下来的时候，你便可以拿出你在挫折中如何学习并坚持前行的计划，然后与它一起一步步按照计划去尝试、前进。</p><p>第五步：学习与帮助学习</p><p>当你制服了你的固定型思维模式人格时，并不意味着学习就结束了。你还要继续培养和锻炼成长型思维模式，你需要制定一个成长型目标。也就是，每一天，你都要在生活和工作中去寻找利用和练习成长型思维模式的事情。让自己不断学习，终身成长。</p></blockquote></blockquote><blockquote><p>思维模式不同导致了发展差异？<br>　　这两种不同的思维模式，对我们发展的影响是非常深远的。甚至可以说，这两种思维模式的不同，实际上导致了每个人发展的差异。<br>（一） 固定型思维模式<br>　　认为智力是一成不变的，拥有强烈的看起来很聪明的愿望，因此：<br>　　固定型思维模式：逃避挑战<br>　　挑战意味着困难，而成功没有保障，为了避免失败影响到自己的形象，会选择逃避挑战，做自己有把握的事情。<br>　　固定型思维模式：面对障碍，容易放弃<br>　　障碍与挑战的不同在于，后者可以选择，而障碍是出现在面前的无法选择的情景。固定型思维模式的人会轻易放弃。<br>　　为什么会这样？<br>　　固定型思维模式的人只喜欢有十分把握的事情。如果是非常有挑战性的事情，他们就会觉得自己不聪明或没有天赋，从而也就&gt;丧失了兴趣。<br>　　<strong>固定思维模式：努力无用</strong><br>　　认为努力是无用的，不会有回报的，聪明的做法是尽可能地不付出努力。如果你有天赋，不用努力也能做得好，如果没有，再&gt;努力也没用。</p></blockquote><blockquote><p>　　固定型思维模式：敌视批评<br>　　忽略或敌视有用的消极反馈或批评。固定型思维模式使人相信任何对你能力的批评就是对你的批评。这会使周围的人慢慢停<br>　　止给予逆耳忠言。<br>　　固定型思维模式：如何看待别人的成功？<br>　　认为别人的成功让自己看起来很糟糕，会使自己或周围的人相信别人的成功是基于运气或令人厌恶的行为。<br>　　<strong>固定型思维模式：失败了会如何做？</strong><br>　　放弃努力，寻找比自己更差的人，以获得自尊心上的安慰。甚至考虑用欺骗的方法，如作弊，让自己看起来很聪明。<br>　　考试失败后大学生的不同反应：成长型思维模式的人看比自己好的，固定型思维模式的人看比自己差的。<br>　　固定型思维模式：阻碍发展<br>　　结果：固定型思维模式的人会提早进入发展的停滞期，从而不能充分实现自己的潜能。所有这些又坚定了他们的决定论的世界观。<br>（二）成长型思维模式<br>　　认为智力是不断发展的，大脑像肌肉一样是可以被训练的，因此渴望学习和不断提高。<br>　　成长型思维模式：拥抱挑战<br>　　首先，拥抱挑战。因为成长型思维相信克服困难和障碍，会让人变得更强大。<br>　　成长型思维模式：障碍面前选择坚持<br>　　同样，障碍不会成为阻碍。成长型思维模式认为自我的形象并不是与成功捆绑在一起的，失败是学习的机会，不管发生什么，&gt;你都会赢。<br>　　<strong>成长型思维模式：努力是成长必经之路</strong><br>　　努力不是被看作无用的需要逃避的东西，而是成长和掌握有用技能的必经之路。<br>　　<strong>成长型思维模式：批评是信息源</strong><br>　　批评和消极反馈是信息源。由于认为自己是处在变化和提高过程中，所以不会把批评看作是针对个人的，而是针对当前事情的。<br>　　<strong>成长型思维模式：别人的成功不是零和博弈</strong><br>　　把别人的成功看作是灵感和信息来源，不把成功看成是零和博弈。<br>　　成长型思维模式：促进成长<br>　　所有这些会把他们带向越来越高的自我实现水平，形成不断学习和提高的良性循环。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;什么是“固定型思维模式”呢？《终身成长》的作者卡罗尔·德韦克博士认为，那些相信自己的才能是一成不变的，经常关注自己是否足够聪明，或者遇到挫折和失败的时候自暴自弃、贬低自己的人就是固定型思维模式的人。我当时就是一个典型的固定型思维模式患者，遇到比自己
+      
+    
+    </summary>
+    
+    
+      <category term="反省，review" scheme="https://allthepast.site/tags/%E5%8F%8D%E7%9C%81%EF%BC%8Creview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>All the Past 过去种种</title>
+    <link href="https://allthepast.site/posts/47299/"/>
+    <id>https://allthepast.site/posts/47299/</id>
+    <published>2019-05-02T15:36:29.210Z</published>
+    <updated>2019-05-24T15:36:19.391Z</updated>
+    
+    <content type="html"><![CDATA[<font face="微软雅黑" size="3"><br>写于workingpaper咖啡馆<br><br>这次写作的冲动缘起于看到电视剧都挺好(All is well)中的和解，于是便戴起耳机隔离自己开始写。<br><br>我向来是一个不啻于解剖自己给世界看的人,因此也收到过很多说我蠢的评价。不过这些评价也都是好久以前的事情了。我就像开了对好友隐身一样和老朋友们疏远了，用一句初中看到的好词好句来说——我们就像相交后的两条线越行越远。看出来了吧——我有病。<br><br>感觉自己有病是有些年头了，因为当意识到有病的那个 very moment，脑海中突然 flash back 了好多小学，初中，高中自己藏在脑海深处的很多蠢事的回忆，突然理解了当时自己为什么那么做，也算做到一种 step out 的状态了。哈！神奇的大脑记忆。<br><br>在感情中，三观受到一些刺激（这句话说得很含糊，但是也说得过去，没毛病），才意识到我有病，而不是这个世界有病，主观客观和个人环境的辩论先放一边，先就着我有病继续下去。<br><br>在解脱的过程中，一开始以为我如果继续活下去的话，我人生的主题会是我和世界达成和解的过程，现在渐渐发现其实是自己和自己和解，自己放过自己。<br><br>从我的原生家庭开始说吧，哈！能说出原生家庭这几个字真是变得越来越不容易了。怎么来形容我的家庭背景呢，家家有本难念的经吗？是自己一直反复强调才加深了这种一提起家庭我就难过的悲剧意识吗？怎么开始说呢，性格不合的父母一个嘴贱，一个手贱。用“贱”这个字都不足以表达我的愤懑之情。看到电视剧里面的家暴，苏明成给了朱丽一个巴掌，在我的认知里面这就像是“抚摸”一样，反而是明成打明玉被起诉故意伤害罪更像是我的概念中的“家暴”。不行了，太难受了，这种回忆往往还夹杂着对年幼的自己没有力量反抗，没有勇气站出来保护爸爸不被骂，保护妈妈不被打的无力感。但是父母又都是爱我的，哎，又爱又恨。<br><br>前几年看病的时候，对医生说我不会自杀的，因为一想到我妈妈知道我死后发疯的样子就不忍心吧。不过在一次和父母的争吵中，我达成了自己和自己的和解，我对着父母说——“等你们死了以后我再死。”这句话吵得就很有水平了，是和他们去世的后者同年同月同日同时同分的下一秒死，还是一直活到寿终。who knows.<br><br>一张白纸在这样的坏境长大，会变成什么样子呢？<br><br>不过，当你张开大嘴说出“原生家庭”这四个字的时候，注意不是在脑海里呓语。其实家庭对你的影响就已经越来越淡了。意识到问题不只是解决问题的第一步，其实意识到问题，再加上你没有死的话，就代表着你解决了问题。或许顿悟，或许灌顶。<br><br>在解决了一个问题，另一个又会出来。承认了家庭对一个人的影响很深的事实后，那么问题来了，剔除了家庭对一个人的影响后，什么才是真正的，真实的我？我是谁，真是一个好问题，真实得敲击在我的脑壳上。<br><br>纠结的过程按下不表，结论总结如下：<br>我是谁，从哪里来，又到哪里去？<br>宇宙没有目的，人生也没有意义。<br><br>一些共鸣的东西，偷懒列一个关键字列表：<br>- 一些锵锵三人行<br>- 柯文哲<br>- 北岛<br>- 三体<br>- 蒋勋<br>- 李永乐老师<br>- 猫腻<br>- 毛毛<br>- Conan<br>- Freyman<br>- 喷嚏阅读<br></font>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;font face=&quot;微软雅黑&quot; size=&quot;3&quot;&gt;&lt;br&gt;写于workingpaper咖啡馆&lt;br&gt;&lt;br&gt;这次写作的冲动缘起于看到电视剧都挺好(All is well)中的和解，于是便戴起耳机隔离自己开始写。&lt;br&gt;&lt;br&gt;我向来是一个不啻于解剖自己给世界看的人,因此也收到
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
