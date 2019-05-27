@@ -105,18 +105,18 @@
 
 
 
-  <meta name="description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt; left-arrow down-arrow 这三个键变成一个 ctrl+shift+q 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段">
+  <meta name="description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt;, left, down 这三次按键变成 ctrl+shift+q 三键一次。 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行。">
 <meta name="keywords" content="tricks">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown-Tricks">
 <meta property="og:url" content="https://allthepast.site/posts/1b033dda/index.html">
 <meta property="og:site_name" content="过去种种">
-<meta property="og:description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt; left-arrow down-arrow 这三个键变成一个 ctrl+shift+q 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段">
+<meta property="og:description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt;, left, down 这三次按键变成 ctrl+shift+q 三键一次。 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行。">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-05-25T13:07:36.461Z">
+<meta property="og:updated_time" content="2019-05-27T07:05:07.219Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown-Tricks">
-<meta name="twitter:description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt; left-arrow down-arrow 这三个键变成一个 ctrl+shift+q 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段">
+<meta name="twitter:description" content="痛点：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&amp;gt;” 找了好久没有找到一个满意的解决方案，在这里 看到一个“ NO WAY ” 于是用sublime 的 macro 功能，把 &amp;gt;, left, down 这三次按键变成 ctrl+shift+q 三键一次。 不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行。">
 
 
 
@@ -504,12 +504,24 @@
                 
               
 
-              <time title="Created: 2019-05-25 18:02:41 / Modified: 21:07:36" itemprop="dateCreated datePublished" datetime="2019-05-25T18:02:41+08:00">2019-05-25</time>
+              <time title="Created: 2019-05-25 18:02:41" itemprop="dateCreated datePublished" datetime="2019-05-25T18:02:41+08:00">2019-05-25</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-05-27 15:05:07" itemprop="dateModified" datetime="2019-05-27T15:05:07+08:00">2019-05-27</time>
               
             
           </span>
@@ -549,6 +561,13 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             Views:  
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
           
 
@@ -569,10 +588,14 @@
       
         <p><strong><em>痛点</em></strong>：写 markdown 文件时引用一整篇也就是好几十段话的时候要手动在每一行前加”&gt;”</p>
 <p>找了好久没有找到一个满意的解决方案，在<a href="https://stackoverflow.com/questions/48643629/how-can-i-wrap-a-multi-line-quote-in-markdown" target="_blank" rel="noopener">这里</a> 看到一个“ NO WAY ”</p>
-<p>于是用sublime 的 macro 功能，把 <strong>&gt; left-arrow down-arrow</strong> 这三个键变成一个 <strong>ctrl+shift+q</strong></p>
-<p>不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行</p>
-<p>虽然还是不完美，不知怎的，今天的我特别容易满足，也许是重温了放牛班的春天吧，在这里就先放过自己了。self foolish and stay foolish</p>
+<p>于是用sublime 的 macro 功能，把 <strong>&gt;, left, down</strong> 这三次按键变成 <strong>ctrl+shift+q</strong> 三键一次。</p>
+<p>不过这样也有bug，一个长段（一段多行）会出现按完下以后不是到下一段开头而是这一段的下一行。</p>
+<p>虽然还是不完美，不知怎的，今天的我特别容易满足，也许是重温了放牛班的春天吧，在这里就先放过自己了。</p>
+<p>self foolish and stay foolish</p>
 <p>未完待续</p>
+<p><strong>Update</strong><br>从<a href="https://stackoverflow.com/questions/10709869/how-to-paste-text-to-end-of-every-line-sublime-2" target="_blank" rel="noopener">这里</a>看到的办法:<br>Ctrl/Cmd + A Select All<br>Ctrl/Cmd + Shift + L Split into Lines<br>‘ Surround every line with quotes</p>
+<p>其实用 reg exp 中的 $ 也可以</p>
+<p>stupid me</p>
 
       
     </div>
@@ -618,6 +641,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/b2d43e4/" rel="prev" title="Leasons-From-Marcus">
+                Leasons-From-Marcus <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -689,7 +716,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -819,6 +846,32 @@ visits:<span id="busuanzi_value_site_pv"></span>
 
 </span>
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
